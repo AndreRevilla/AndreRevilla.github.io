@@ -18,3 +18,8 @@ function toggleBackgroundColor() {
     }
     isOriginalColor = !isOriginalColor; // Cambiar el estado
 }
+
+// Función para abrir un enlace en una nueva pestaña
+function openLink(url) {
+    window.open(url, "_blank"); // Abre el enlace en una nueva pestaña
+}
